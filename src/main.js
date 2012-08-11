@@ -11,10 +11,15 @@ var procs = [
 		description: 'プラグインのプロセスを停止します。タブのプロセスはそのままです。',
 		value: 'plugin',
 		selected: false
-	}, 	{
+	}, {
 		text: 'タブプロセスを停止',
 		description: 'タブのプロセスを停止します。プラグインのあるタブは停止しません。',
 		value: 'tab',
+		selected: false
+	}, {
+		text: '停止したプロセスを修復',
+		description: '停止したプロセスをもう一度起動させます。',
+		value: 'recover',
 		selected: false
 	}
 ];
